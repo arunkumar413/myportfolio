@@ -30,11 +30,19 @@ h4 {
   color: orangered;
 }
 
+.email {
+  color: purple
+}
+
+.phone {
+  color: darkred;
+}
+
 .third-column {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: 100%;
   border-radius: 1rem;
-  background-color: honeydew;
+  /* background-color: honeydew; */
 
 }
 
@@ -43,13 +51,13 @@ h4 {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
-  color: teal;
+  color: green;
   letter-spacing: 0.1rem;
   padding: 0.5rem;
   gap: 0.5rem;
 }
 
 .skills>div {
-  border-radius: 1rem;
+  border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
