@@ -1,15 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import LinkedinIcon from './icons/linkedin.svg';
+import githubIcon from './icons/github.svg'
+import twitterIcon from './icons/twitter.svg'
+import profilePic from './icons/profilepic.jpeg'
+import phoneIcon from './icons/phone.svg'
 
 function App() {
   return (
     <div className="App">
-      <div>  </div>
+
+      <div className='links'>
+        <img src={LinkedinIcon} alt='linkedin Icon' className='icon' />
+        <img src={githubIcon} alt='github Icon' className='icon' />
+        <img src={twitterIcon} alt='twitter Icon' className='icon' />
+
+
+
+
+
+      </div>
       <div>
+        <img src={profilePic} alt='profile pic' className='profile-pic' />
+
         <h1 className='name'>  Arun Kumar Kadari</h1>
         <h4 className='title'>  Fullstack Developer</h4>
         <h4 className='email'>  arunkumar413@gmail.com</h4>
         <h4 className='phone'>  +919966288507</h4>
+
+
+
         <hr />
         <div className='skills'>
           <div>
@@ -50,6 +69,10 @@ function App() {
           </div>
           <div>
             <h3> Rust </h3>
+          </div>
+
+          <div>
+            <h3> Go </h3>
           </div>
 
         </div>
